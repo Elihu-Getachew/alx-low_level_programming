@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - a program to print using 
- * printf and having a new line at 
+ * main - a program to print using
+ * printf and having a new line at
  * the end
  *
  * Return: Always 0 (Success)
