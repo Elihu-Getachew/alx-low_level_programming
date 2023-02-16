@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * Program used to print using puts
- * instead of using printf
+ * main - is the Entry point where printing occurs
+ * and it prints using puts instead of printf
+ *
+ * Return: Alwayss 0 (Success)
  */
 int main(void)
 {
