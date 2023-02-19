@@ -8,16 +8,17 @@
  */
 int main(void)
 {
-	int n = 0;
+	int i;
 
-	printf("%x\n", hex(n));
-/*
-	while (hex <= 0x16)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(hex + '0x00');
-		hex++;
+		putchar(i);
+	}
+	for (i = 97; i < 103; i++)
+	{
+		putchar(i);
 	}
 	putchar('\n');
-*/
+
 	return (0);
 }
