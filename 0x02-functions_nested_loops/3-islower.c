@@ -11,9 +11,7 @@
  */
 int _islower(int c)
 {
-	char var = (char)(c);
-
-	if (97<= var || var <=122)
+	if (97<= c && c <=122)
 		return (1);
 	else
 		return (0);
