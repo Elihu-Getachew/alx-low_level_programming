@@ -8,26 +8,20 @@
  */
 int main(void)
 {
-	int n;
 	long int a, b, fib, sum;
 
 	a = 1;
 	b = 2;
 	sum = 0;
-	for (n = 0; n < 48; n++)
+	fib = 0;
+	while (fib <= 4000000)
 	{
 		fib = a + b;
-		if (fib >= 4000000)
-		{
-			break;
-		}
-		else
-		{
-			if ((fib % 2) == 0)
-				sum += fib;
-		}
 		a = b;
 		b = fib;
+
+		if ((a % 2) == 0)
+			sum += a;
 	}
 	printf("%ld\n", sum);
 
