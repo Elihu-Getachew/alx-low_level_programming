@@ -30,7 +30,6 @@ void print_times_table(int n)
 				}
 				else if (mul <= 99)
 				{
-					_putchar(32);
 					_putchar((mul / 10) + 48);
 					_putchar((mul % 10) + 48);
 				}
