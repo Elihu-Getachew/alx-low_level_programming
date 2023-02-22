@@ -13,7 +13,7 @@ int main(void)
 	a = 1;
 	b = 2;
 	printf("%lu, %lu", a, b);
-	for (n = 0; n < 93; n++)
+	for (n = 0; n < 98; n++)
 	{
 		fib = a + b;
 		printf(", %lu", fib);
